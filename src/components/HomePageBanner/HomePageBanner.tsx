@@ -15,8 +15,10 @@ const HomePageBanner: React.FC = () => {
       <img src={LogoGif} alt='logo' className='home-page__banner__logo' />
       <h1 className="home-page__banner__title">M.I.L.O.</h1>
       <p className="home-page__banner__subtitle">Machine Interpretation of Literature & Omniscience</p>
-      <p className="home-page__banner__two-linear">not everything is discoverable—some things must be remembered.</p>
-      <p className="home-page__banner__two-linear">Deep Mind reconnects the lost knowledge of the past with the discoveries of today.</p>
+      <div className='home-page__banner__two-linear-block'>
+        <p className="home-page__banner__two-linear">The First AI Historian for Lost & Sacred Knowledge</p>
+        <p className="home-page__banner__two-linear">Ancient texts hold wisdom, but meanings fade over time. MILO brings them back to life—decoding scripture, philosophy, and hidden histories to reveal insights that still matter today.</p>
+      </div>
       <h2 className='home-page__banner__nav-title'>Where Do You Begin?</h2>
       <ul className='home-page__banner__nav-links'>
         <li><Link to={{hash: '#thesis'}}>→ Thesis</Link></li>
