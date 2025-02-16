@@ -9,7 +9,7 @@ export interface IContactItem {
 }
 
 export const contactItems: IContactItem[] = [
-  { label: 'Github', logo: <GithubLogo />, link: 'https://github.com/DummyHuber/milo-frontend' },
+  { label: 'Github', logo: <GithubLogo />, link: 'https://github.com/DummyHuber' },
   { label: 'Twitter', logo: <TwitterLogo />, link: 'https://x.com/milo_opensource?s=21' },
   { label: 'CA', link: '/' },
 ]
